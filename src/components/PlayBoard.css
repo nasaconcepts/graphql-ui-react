@@ -1,0 +1,35 @@
+.board-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.player-display {
+  width: 80%;
+  padding: 1rem;
+  border-radius: 2rem;
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.list-players {
+  width: 97%;
+  padding: 1rem;
+  font-size: large;
+  display: flex;
+  gap: 1rem;
+  background-color: white;
+  flex-wrap: wrap;
+  border-radius: 2rem;
+}
+.header {
+  text-align: center;
+  color: blue;
+  border-bottom: 1px solid black;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: bolder;
+}
